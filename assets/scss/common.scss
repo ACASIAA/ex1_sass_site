@@ -8,7 +8,9 @@
   background: $gbtnColor;
   color: white;
   border: 1px solid $gbtnColor;
-  $
+  &.right {
+    float: right;
+  }
   &:hover {
     color: $gbtnColor;
     background: white;
